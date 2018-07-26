@@ -1,0 +1,69 @@
+body{
+  background-image: url("sci.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+  height: 100%;
+  width: 100%;
+}
+header{
+  margin-top: 0;
+  background-color: #051b6d;
+  border-bottom: 1px solid black;
+  min-width: 100%;
+
+}
+.portal{
+  float: right;
+  margin-right: 400px;
+  font-family: Arial;
+  color: #e1d3dc;
+}
+h1{
+  font-family: Arial;
+  text-align: center;
+}
+h3{
+  font-family: Arial;
+  text-align: center;
+}
+.box{
+  margin-left: 35%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color:;
+}
+form{
+  padding-left: 70px;
+}
+form div + div{
+  margin-top: 1em;
+}
+label{
+  display: inline-block;
+  width: 120px;
+}
+input{
+  border-radius: 0.5em;
+  padding-right:12px;
+}
+select{
+  border-radius: 0.5em;
+}
+input:focus, select:focus, radio:focus {
+  border-color: #000;
+}
+button{
+  margin-left: 100px;
+  border-radius: 0.7em;
+}
+footer{
+  float: clear;
+  bottom:0px;
+  width:100%;
+  height: 0px;
+  border-top: 1px solid black;
+}
